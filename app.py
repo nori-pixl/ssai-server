@@ -42,6 +42,7 @@ st.title("🤖 ssAI 学習エンジン")
 col1, col2 = st.columns(2)
 
 with col1:
+    st.write("https://nori-pixl.github.io/ssai-copy/")
     st.subheader("1. 教材を渡す")
     img_file = st.file_uploader("ノートや問題をアップロード", type=["jpg", "png"])
     if img_file:
